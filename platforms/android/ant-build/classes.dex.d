@@ -1,0 +1,20 @@
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes.dex : \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$1.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$2.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$3.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$4.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$5.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$6.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$7.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$8.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/Util.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/phonegap/helloworld/BuildConfig.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/phonegap/helloworld/HelloWorld.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/phonegap/helloworld/R$attr.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/phonegap/helloworld/R$drawable.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/phonegap/helloworld/R$string.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/phonegap/helloworld/R$xml.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/com/phonegap/helloworld/R.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/classes/org/apache/cordova/api/Dummy.class \
+/Users/paulmackinnon/phonegapscratch/nfc1/platforms/android/ant-build/dexedLibs/classes-4b7013eb9b5a90cf2b166298e9d57e12.jar \
