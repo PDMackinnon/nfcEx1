@@ -16,6 +16,36 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+
+Array.prototype.compare = function (array) {
+    // if the other array is a falsy value, return
+    if (!array)
+        return false;
+
+    // compare lengths - can save a lot of time
+    if (this.length != array.length)
+        return false;
+
+    for (var i = 0, l=this.length; i < l; i++) {
+        // Check if we have nested arrays
+        if (this[i] instanceof Array && array[i] instanceof Array) {
+            // recurse into the nested arrays
+            if (!this[i].compare(array[i]))
+                return false;
+        }
+        else if (this[i] != array[i]) {
+            // Warning - two different object instances will never be equal: {x:20} != {x:20}
+            return false;
+        }
+    }
+    return true;
+}
+
+
+
+
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -41,14 +71,26 @@ var app = {
 				
 				// alert(JSON.stringify(tag));
 				
-				if (tag.id[1] == -65) {
+				
+				var tag1 = [4,-6,-84,106,-24,52,-128];
+				var tag2 = [4,-65,-84,106,-24,52,-128];
+				
+				if (tag.id.compare(tag1)) {
 					//alert("hello One");
 					NFCedgeApp.getStage().play("play1");
 					
-				};
-				if (tag.id[1] == -6) {
+				}
+				
+				else if (tag.id.compare(tag2)) {
 					//alert("hello TWO");
 					NFCedgeApp.getStage().play("play2")
+				}
+				
+				else {
+					//unrecognised tag - show the id
+					
+					alert(JSON.stringify(tag));
+				
 				}
 				
 			},
